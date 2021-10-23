@@ -47,8 +47,8 @@ const Stopwatch = () => {
   return (
     <div className="app">
       <div className="time">
-        <div>{`⌚Atividade: ${seconds} s`}</div>
-        <div>{`⌚Questão: ${secondsPartial} s`}</div>
+        <div>{`⌚ Atividade: ${seconds} s`}</div>
+        <div>{`⏱ Questão: ${secondsPartial} s`}</div>
       </div>
       <div className="time">
         <img src={checks} alt="check" />
