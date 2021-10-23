@@ -1,11 +1,10 @@
-// import React, { useCallback, useEffect, useState } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import AppContext from './AppContext';
-
 
 function AppProvider({ children }) {
   return (
     <AppContext.Provider
-      // value={}
+      value={{  }}
     >
       {children}
     </AppContext.Provider>

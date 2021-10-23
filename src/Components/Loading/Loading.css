@@ -3,3 +3,8 @@
   align-items: center;
   justify-content: center;
 }
+
+.loading img {
+  width: 50%;
+  height: 50%;
+}
