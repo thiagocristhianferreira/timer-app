@@ -7,6 +7,7 @@ import ImgChecks from "../ImgChecks/ImgChecks";
 import PauseButton from "../PauseButton/PauseButton";
 import ResetButton from "../ResetButton/ResetButton";
 import Header from "../Header/Header";
+import Audio from "../Audio/Audio";
 
 const Stopwatch = () => {
   const [seconds, setSeconds] = useState(25);
@@ -63,6 +64,7 @@ const Stopwatch = () => {
         />
         <ResetButton reset={reset} />
       </div>
+      <Audio seconds={seconds} />
     </div>
   );
 };
