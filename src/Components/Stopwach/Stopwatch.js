@@ -2,7 +2,11 @@ import React, { useEffect, useState } from "react";
 
 import './Stopwatch.css';
 import checks from '../../Images/checks.gif';
-
+import Timers from "../Timers/Timers";
+import ImgChecks from "../ImgChecks/ImgChecks";
+import PauseButton from "../PauseButton/PauseButton";
+import ResetButton from "../ResetButton/ResetButton";
+import Header from "../Header/Header";
 
 const Stopwatch = () => {
   const [seconds, setSeconds] = useState(25);
@@ -46,20 +50,18 @@ const Stopwatch = () => {
 
   return (
     <div className="app">
-      <div className="time">
-        <div>{`⌚ Atividade: ${seconds} s`}</div>
-        <div>{`⏱ Questão: ${secondsPartial} s`}</div>
-      </div>
-      <div className="time">
-        <img src={checks} alt="check" />
-      </div>
+      <Header />
+      <Timers
+        seconds={seconds}
+        secondsPartial={secondsPartial}
+      />
+      <ImgChecks checks={checks} />
       <div className="row">
-        <button className={`button button-primary button-primary-${isActive ? 'active' : 'inactive'}`} onClick={toggle}>
-          {isActive ? 'Pause' : 'Start'}
-        </button>
-        <button className="button other-button" onClick={reset}>
-          Reset
-        </button>
+        <PauseButton
+          toggle={toggle}
+          isActive={isActive}
+        />
+        <ResetButton reset={reset} />
       </div>
     </div>
   );
