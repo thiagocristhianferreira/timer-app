@@ -5,7 +5,7 @@ import './Header.css';
 const Header = () => {
   return (
     <nav>
-      <h2>PROMODORO</h2>
+      <h2>POMODORO</h2>
     </nav>
   )
 }
