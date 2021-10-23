@@ -6,6 +6,7 @@
   height="222"
   style="display:flex; justify-content: flex-end;"
 />
+markdown ![GitHub Logo](Images/vilaapps-github.png)
 
 Devido uma limitação de Hardware o framework escolhido foi React.
 
