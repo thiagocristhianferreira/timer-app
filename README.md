@@ -1,4 +1,6 @@
-<img src="https://firebasestorage.googleapis.com/v0/b/my-app-98f0b.appspot.com/o/VilaApps%2Fvilaapps-github.png?alt=media&token=84a1f717-7de1-42e5-8f3a-04a7f5d97f05" alt="VilaApps" width="314" height="222" style="float: right;">
+<div style="float: right;">
+  <img src="https://firebasestorage.googleapis.com/v0/b/my-app-98f0b.appspot.com/o/VilaApps%2Fvilaapps-github.png?alt=media&token=84a1f717-7de1-42e5-8f3a-04a7f5d97f05" alt="VilaApps" width="314" height="222" style="float: right;" />
+</div>
 
 # Desafio - Pomodoro
 
