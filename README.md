@@ -5,7 +5,7 @@
   width="314"
   height="222"
   style="display:flex; justify-content: flex-end;"
-/>
+>
 
 Devido uma limitação de Hardware o framework escolhido foi React.
 
