@@ -10,4 +10,4 @@ Devido uma limitação de Hardware o framework escolhido foi React.
 
 ### `Aplicação Publicada no Netlify`
 
-[Timer-App](https://6173aa38c0df92074231da3e--friendly-haibt-66d5c8.netlify.app/)
+[Timer-App](https://friendly-haibt-66d5c8.netlify.app)
