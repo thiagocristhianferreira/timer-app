@@ -10,6 +10,7 @@ const Audio = (props) => {
       <section>
         <p>Seu tempo acabou 🥲</p>
         <audio
+          id='backgroundMusic'
           controls
           autoPlay
           src={mp3}

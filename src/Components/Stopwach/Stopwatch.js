@@ -27,6 +27,9 @@ const Stopwatch = () => {
 
   useEffect(() => {
     setIsActive(true);
+    setTimeout(() => {
+      document.getElementById("backgroundMusic").play();
+    }, 25000);
     }, [])
 
   useEffect(() => {
