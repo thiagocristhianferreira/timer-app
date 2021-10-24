@@ -29,7 +29,7 @@ const Stopwatch = () => {
     setIsActive(true);
     setTimeout(() => {
       document.getElementById("backgroundMusic").play();
-    }, 25000);
+    }, 26000);
     }, [])
 
   useEffect(() => {
