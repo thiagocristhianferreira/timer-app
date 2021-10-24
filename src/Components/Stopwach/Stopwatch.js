@@ -8,7 +8,6 @@ import PauseButton from "../PauseButton/PauseButton";
 import ResetButton from "../ResetButton/ResetButton";
 import Header from "../Header/Header";
 import Audio from "../Audio/Audio";
-import mp3 from "../../Musics/supermariomorrendo.mp3";
 
 const Stopwatch = () => {
   const [seconds, setSeconds] = useState(25);
