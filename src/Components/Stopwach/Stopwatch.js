@@ -14,6 +14,8 @@ const Stopwatch = () => {
   const [secondsPartial, setSecondsPartial] = useState(5);
   const [isActive, setIsActive] = useState(false);
   const [count, setCount] = useState(0);
+  const [percent, setPercent] = useState(104);
+  const [percentPartial, setPercentPartial] = useState(125);
 
   const toggle = () => {
     setIsActive(!isActive);
@@ -23,6 +25,8 @@ const Stopwatch = () => {
     setSeconds(25);
     setSecondsPartial(5);
     setIsActive(true);
+    setPercent(104);
+    setPercentPartial(125);
   }
 
   useEffect(() => {
@@ -59,6 +63,10 @@ const Stopwatch = () => {
         seconds={seconds}
         secondsPartial={secondsPartial}
         count={count}
+        percent={percent}
+        setPercent={setPercent}
+        percentPartial={percentPartial}
+        setPercentPartial={setPercentPartial}
       />
       <ImgChecks checks={checks} />
       <div className="row">

@@ -4,10 +4,16 @@ import Progress from "../Progress/Progress";
 import './Timers.css';
 
 const Timers = (props) => {
-  const { seconds, secondsPartial, count } = props;
+  const {
+    seconds,
+    secondsPartial,
+    count,
+    percent,
+    setPercent,
+    percentPartial,
+    setPercentPartial
+  } = props;
 
-  const [percent, setPercent] = useState(104);
-  const [percentPartial, setPercentPartial] = useState(125);
   const [totalBackgroundColor, setTotalBackgroundColor] = useState("green");
   const [partialBackgroundColor, setPartialBackgroundColor] = useState("green");
 
@@ -21,9 +27,7 @@ const Timers = (props) => {
         setPercentPartial(125);
       }
       setPercentPartial(percentPartial => percentPartial - 25);
-      console.log(percentPartial, count);
       if (percentPartial === 0 && count === 4) {
-        console.log('aqui');
         setPercentPartial(percentPartial => percentPartial + 25);
       }
     }
