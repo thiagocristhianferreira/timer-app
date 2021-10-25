@@ -58,6 +58,7 @@ const Stopwatch = () => {
       <Timers
         seconds={seconds}
         secondsPartial={secondsPartial}
+        count={count}
       />
       <ImgChecks checks={checks} />
       <div className="row">
