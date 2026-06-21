@@ -1,0 +1,22 @@
+.progress {
+  width: 100%;
+  max-width: 320px;
+  background-color: #e0e0e0;
+  border-radius: 20px;
+  margin: 8px auto;
+  overflow: hidden;
+}
+
+.progress-done {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 24px;
+  width: 0;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  opacity: 0;
+  transition: width 0.8s ease, opacity 0.3s ease, background-color 0.3s ease;
+}

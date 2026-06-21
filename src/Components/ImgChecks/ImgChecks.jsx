@@ -1,5 +1,3 @@
-import React from "react";
-
 import './ImgChecks.css'
 
 const ImgChecks = (props) => {
