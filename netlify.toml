@@ -2,6 +2,10 @@
   command = "npm run build"
   publish = "build"
 
+# Vite 7 exige Node >= 20.19; fixa a versao para o build do Netlify
+[build.environment]
+  NODE_VERSION = "22"
+
 # SPA: redireciona todas as rotas para o index.html
 [[redirects]]
   from = "/*"
