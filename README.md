@@ -41,4 +41,4 @@ npm test
 
 ### `Aplicação Publicada no Netlify`
 
-<a href="https://friendly-haibt-66d5c8.netlify.app" target="_blank" rel="noopener noreferrer">Timer-App</a>
+[Timer-App](https://friendly-haibt-66d5c8.netlify.app)
