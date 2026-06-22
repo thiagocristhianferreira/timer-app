@@ -2,7 +2,7 @@
 
 # Desafio - Pomodoro
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4ccd26e6-a8d3-42f1-acff-f587de032562/deploy-status)](https://app.netlify.com/sites/friendly-haibt-66d5c8/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7c5a7691-2c8a-4785-9d0e-daa0b4216346/deploy-status)](https://app.netlify.com/projects/projeto-timer-app/deploys)
 
 Devido uma limitação de Hardware o framework escolhido foi React.
 
@@ -41,4 +41,4 @@ npm test
 
 ### `Aplicação Publicada no Netlify`
 
-[Timer-App](https://friendly-haibt-66d5c8.netlify.app)
+[Timer-App](https://projeto-timer-app.netlify.app/)
